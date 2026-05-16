@@ -1,0 +1,24 @@
+{
+  "id": "stars-light-overlay-test",
+  "title": "Stars Light Overlay Test",
+  "version": "0.9",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Ziv"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "description": "trying out module developement, referenceing the initiative overlay by vani_th",
+  "esmodules": [
+    "stars-light-overlay-test.js"
+  ],
+  "socket": true,
+  "manifest": "https://raw.githubusercontent.com/Zivono/LightModuleTest/main/module.json",
+  "download": "https://github.com/Zivono/LightModuleTest/releases/download/v1.1.0/stars-initiative-overlay.zip"
+}

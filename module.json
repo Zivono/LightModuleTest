@@ -20,5 +20,5 @@
   ],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Zivono/LightModuleTest/main/module.json",
-  "download": "https://github.com/Zivono/LightModuleTest/releases/tag/test/test.zip"
+  "download": "https://github.com/Zivono/LightModuleTest/releases/download/test/test.zip"
 }

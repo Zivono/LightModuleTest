@@ -22,7 +22,7 @@ const textures = {
 function getLightData(actor) {
   const light = actor?.system?.light;
 
-  const rawMax = Number(light?.derived_light ?? light?.max ?? 0);
+  const rawMax = Number(light?.max ?? light?.derived_light ?? 0);
   const max = Number.isFinite(rawMax) ? Math.max(0, Math.floor(rawMax)) : 0;
 
   const rawCurrent = Number(light?.value ?? 0);

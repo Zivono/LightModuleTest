@@ -1,7 +1,7 @@
 {
   "id": "stars-light-overlay-test",
   "title": "Stars Light Overlay Test",
-  "version": "0.9",
+  "version": "0.91",
   "compatibility": {
     "minimum": "11",
     "verified": "13"

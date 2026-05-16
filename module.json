@@ -20,5 +20,5 @@
   ],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Zivono/LightModuleTest/main/module.json",
-  "download": "https://github.com/Zivono/LightModuleTest/releases/download/v1.1.0/stars-initiative-overlay.zip"
+  "download": "https://github.com/Zivono/LightModuleTest/releases/tag/test/test.zip"
 }

@@ -49,7 +49,7 @@ function createMarker(tokenCanvas, isFull) {
 
   const icon = new PIXI.Sprite(isFull ? textures.full : textures.empty);
   icon.anchor.set(0.5);
-  icon.scale.set(0.22);
+  icon.scale.set(0.26);
 
   container.addChild(icon);
   tokenCanvas.addChild(container);
@@ -82,7 +82,7 @@ function renderTokenLights(tokenDoc, combat) {
     const isFull = i < current;
     const marker = createMarker(tokenCanvas, isFull);
 
-    marker.x = tokenCanvas.w / 2 + (i - (max - 1) / 2) * 42;
+    marker.x = tokenCanvas.w / 2 + (i - (max - 1) / 2) * 20;
     marker.y = -95;
 
     tokenCanvas._lightMarkers.push(marker);
